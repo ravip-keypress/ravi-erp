@@ -1,6 +1,6 @@
 {'name': 'Odoo All In One Product Image Display',
 'version': '17.0.0.3',
-'summary': 'Odoo All In One Product Image Display',
+'summary': 'Odoo All In One Product Image Display Odoo All In One Product Image Display',
 'sequence': 1,
 'images': ['static/description/youtubebanner.png'],
 'price': 1000.0,
