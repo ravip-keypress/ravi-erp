@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="purchase_quotation_report_extend_spt" inherit_id="purchase.report_purchasequotation_document">
+            <xpath expr="//th[@name='th_description']" position="before">
+                <th class="text-center" width="15%">Image</th>
+            </xpath>
+            <xpath expr="//td[@id='product']" position="before">
+                <td align = "center">
+                    <span t-if="order_line.product_id.image_128" t-field="order_line.product_id.image_128" t-options="{'widget': 'image','style':'max-width: 100px'}"/>
+                </td>
+            </xpath>
+        </template>
+    </data>
+</odoo>
