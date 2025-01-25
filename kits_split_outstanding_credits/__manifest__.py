@@ -15,6 +15,6 @@
 'depends': ['base', 'account'],
 'maintainer': 'Keypress IT Services',
 'currency': 'USD',
-'price': 50.0,
+'price': 200.0,
 'images': ['static/description/banner.png'],
 'live_test_url': 'https://staging.keypress.co.in/odoo-apps/17.0/kits_split_outstanding_credits',}
