@@ -2,7 +2,7 @@
 'version': '16.0.0.01',
 'summary': 'Odoo All In One Product Image Display',
 'sequence': 1,
-'images': ['static/description/Banner.png'],
+'images': ['static/description/banner.png'],
 'price': 200.0,
 'currency': 'USD',
 'author': 'Keypress IT Services',
