@@ -7,10 +7,11 @@
                     <div class="oe_structure"/>
                     <h2>Products List</h2>
                     <br />
+
                     <table class="table table-sm o_main_table">
                         <thead>
                             <tr>
-                                <th class="text-center">
+                                <th>
                                     Image
 
                                 </th>
@@ -50,7 +51,6 @@
                                  <td>
                                     <span t-field='doc.weight' />
                                 </td>
-                                
                             </tr>
                         </tbody>
                     </table>

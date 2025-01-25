@@ -2,7 +2,7 @@
 <odoo>
     <template id="delivery_slip_report_extend_spt" inherit_id="stock.report_delivery_document">
         <xpath expr="//th[@name='th_sm_product']" position="before">
-            <th class="text-center">Image</th>
+            <th class="text-cente">Image</th>
         </xpath>
         <xpath expr="//table[hasclass('table','table-sm')]/tbody/tr/td" position="before">
             <td align="center">
@@ -11,20 +11,20 @@
         </xpath>
 
         <!-- stock_move_line >> Product [Index,image] headings  -->
-        <xpath expr="//div[1]/table[@name='stock_move_line_table']/thead/tr/th[@name='th_sml_product']" position="before">
-            <th class="text-center">Image</th>
+        <xpath expr="//th[@name='th_sml_product']" position="before">
+            <th class="text-cente">Image</th>
         </xpath>
-
         <!-- This xpath is applied when there is back order of product -->
         <!-- Added [Index, Image, SKU] in product line printing. -->
-        <xpath expr="//table[@name='stock_backorder_table']/thead/tr/th[@name='th_sb_product']" position="before">
-            <th class="text-center" width="15%" >Image</th>
+        <xpath expr="//th[@name='th_sb_product']" position="before">
+            <th class="text-cente" width="15%">Image</th>
         </xpath>
-        <xpath expr="//table[@name='stock_backorder_table']/tbody/tr/td" position="before">
+        <xpath expr="//table[@name='stock_backorder_table']/tbody/t/tr/td" position="before">
             <td align="center">
                 <img t-attf-src="data:image/*;base64,{{bo_line.product_id.image_128}}" style="max-height:220px; max-width:100px;"/>
             </td>
         </xpath>
+
     </template>
 
 
@@ -37,6 +37,7 @@
             </td>
         </xpath>
     </template>
+
 
     <!-- Template Inherited for Done Picking product -->
     <!-- Added [Index, Image, SKU] in product line printing. -->

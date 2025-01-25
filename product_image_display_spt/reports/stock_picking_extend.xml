@@ -3,9 +3,9 @@
     <data>
         <template id="stock_picking_extend" inherit_id="stock.report_picking">
             <xpath expr="//th[@name='th_product']" position="before">
-                <th class="text-center" width="15%">Image</th>
+                <th width="15%">Image</th>
             </xpath>
-            <xpath expr="//table[hasclass('table','table-sm')]/tbody/tr/td" position="before">
+            <xpath expr="//table[hasclass('table','table-sm')][1]/tbody/t/tr/td" position="before">
                 <td align="center">
                     <span t-if="ml.move_id.image" t-field="ml.move_id.image" t-options="{'widget': 'image','style':'max-width: 100px'}"/>
                 </td>

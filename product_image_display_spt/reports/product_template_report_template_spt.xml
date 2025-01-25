@@ -7,10 +7,11 @@
                     <div class="oe_structure"/>
                     <h2>Products List</h2>
                     <br/>
+
                     <table class="table table-sm o_main_table">
                         <thead>
                             <tr>
-                                <th class="text-center">
+                                <th align="center">
                                     Image
                                 </th>
                                 <th>
@@ -30,7 +31,7 @@
                         </thead>
                         <tbody>
                             <tr t-foreach="docs" t-as="doc">
-                                <td align="center">
+                                <td  align="center" >
                                     <span t-if="doc.image_128" t-field='doc.image_128' t-options="{'widget': 'image','style':'max-width: 100px'}"/>
                                 </td>
                                 <td>
@@ -48,6 +49,7 @@
                             </tr>
                         </tbody>
                     </table>
+
                     <div class="oe_structure"/>
                 </div>
             </t>

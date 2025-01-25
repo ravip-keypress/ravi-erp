@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 class stock_move(models.Model):
     _inherit = 'stock.move'
