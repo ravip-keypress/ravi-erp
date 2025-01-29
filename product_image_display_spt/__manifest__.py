@@ -1,5 +1,5 @@
 {'name': 'Odoo All In One Product Image Display',
-'version': '17.0.0.3',
+'version': '17.0.0.4',
 'summary': 'Display product quantities in an alternative unit of measure across products, sale orders, deliveries, purchase orders, and invoices.',
 'sequence': 1,
 'images': ['static/description/youtubebanner.png'],
