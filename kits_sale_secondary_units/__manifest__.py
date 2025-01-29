@@ -12,7 +12,7 @@
 'auto-install': False,
 'live_test_url': 'https://staging.keypress.co.in/odoo-apps/17.0/reports-custom-font',
 'images': ['static/description/banner.png'],
-'price': 100,
+'price': 50,
 'currency': 'USD',
 'description': 'Odoo Sale Secondary UOM',
 'maintainer': 'Keypress IT Services',
