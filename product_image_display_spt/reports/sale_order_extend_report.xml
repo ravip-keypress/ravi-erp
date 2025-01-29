@@ -3,7 +3,7 @@
     <data>
         <template id="sale_report_extend_spt" inherit_id="sale.report_saleorder_document">
             <xpath expr="//th[@name='th_description']" position="before">
-                <th class="text-center" width="15%">Image</th>
+                <th class="text-center" width="15%">Images</th>
             </xpath>
             <xpath expr="//td[@name='td_name']" position="before">
                 <td align="centre">
