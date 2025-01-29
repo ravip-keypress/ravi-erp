@@ -3,7 +3,7 @@
 'summary': 'Display product quantities in an alternative unit of measure across products, sale orders, deliveries, purchase orders, and invoices.',
 'sequence': 1,
 'images': ['static/description/youtubebanner.png'],
-'price': 100,
+'price': 500,
 'currency': 'USD',
 'author': 'Keypress IT Services',
 'description': 'Transform your inventory management with Odoo All-in-One Unit of Measure. Display product quantities in both primary and secondary units across products, sales, deliveries, purchases, and invoices for improved accuracy and clarity.',
