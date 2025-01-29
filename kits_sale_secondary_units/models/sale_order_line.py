@@ -21,7 +21,7 @@ class sale_order_line(models.Model):
         for record in self:
             if record.product_id.secondary_uom_id.id and not self._context.get('secondary_uom',False):
                 record.secondary_uom_id = record.product_id.secondary_uom_id.id
-                record.secondary_qty =  round(record.product_uom._compute_quantity(record.product_uom_qty,record.product_id.secondary_uom_id) ,2)
+                record.secondary_qty = round(record.product_uom._compute_quantity(record.product_uom_qty,record.product_id.secondary_uom_id) ,2)
         ctx = self._context.copy()
         ctx['secondary_uom'] = True
         self.env.context = ctx
