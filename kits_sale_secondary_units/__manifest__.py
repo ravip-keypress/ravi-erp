@@ -12,7 +12,7 @@
 'auto-install': False,
 'live_test_url': 'https://staging.keypress.co.in/odoo-apps/17.0/reports-custom-font',
 'images': ['static/description/banner.png'],
-'price': 100,
+'price': 150,
 'currency': 'INR',
 'description': 'Enhance your sales order management with Odoo Sale Secondary UOM. Display product quantities in an alternative unit of measurement alongside the primary unit for improved visibility and accuracy.',
 'maintainer': 'Keypress IT Services',
