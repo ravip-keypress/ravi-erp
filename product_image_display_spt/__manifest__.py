@@ -3,7 +3,7 @@
 'summary': 'Odoo All In One Product Image Display Odoo All In One Product Image Display',
 'sequence': 1,
 'images': ['static/description/banner.png'],
-'price': 10,
+'price': 20,
 'currency': 'USD',
 'author': 'Keypress IT Services',
 'description': 'Odoo All In One Product Image Display',
