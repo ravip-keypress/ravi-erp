@@ -2,7 +2,7 @@
 <odoo>
     <template id="delivery_slip_report_extend_spt" inherit_id="stock.report_delivery_document">
         <xpath expr="//th[@name='th_sm_product']" position="before">
-            <th class="text-cente">Image</th>
+            <th class="text-cente">Images</th>
         </xpath>
         <xpath expr="//table[hasclass('table','table-sm')]/tbody/tr/td" position="before">
             <td align="center">
