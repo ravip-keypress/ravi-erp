@@ -1,5 +1,5 @@
 {'name': 'Odoo Sale Secondary UOM Test',
-'version': '16.1',
+'version': '16.0.0.2',
 'sequence': 1,
 'category': 'Extra Tools',
 'author': 'Keypress IT Services',
